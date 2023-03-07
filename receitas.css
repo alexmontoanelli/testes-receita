@@ -1,0 +1,46 @@
+.receitas {
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.receita {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    align-items: center;
+    width: 200px;
+    background-color: beige;
+    padding: 30px;
+    justify-content: flex-start;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.receita > h3 {
+}
+
+.receita > img {
+    width: 100px;
+}
+
+.receita > .ingredientes {
+    padding: 0px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.receita > .preparo {
+    text-align: left;
+
+}
+
+hr {
+    width: 100%;
+    color: black;
+    background-color: red;
+}

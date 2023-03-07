@@ -1,0 +1,19 @@
+.linha {
+    text-align: left;
+
+    margin: 10px;
+}
+.meuLabel {
+    font-size: 26px;
+    text-align: left;
+    width: 200px;
+}
+
+input{
+    height: 30px;
+    width: 500px;
+}
+
+.cep, .numero, .uf, .complemento  {
+    width: 200px !important;
+}
